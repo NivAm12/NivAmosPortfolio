@@ -34,6 +34,7 @@ export const portfolioData = {
         {
             title: "Artificial Intelligence Engineer",
             company: "Elad Software Systems",
+            logo: "/assets/elad.png",
             period: "March 2025 - Present",
             description: [
                 "Build autonomous AI agents with LangGraph/LangChain, custom tool routing, memory, and multi-step reasoning.",
@@ -45,6 +46,7 @@ export const portfolioData = {
         {
             title: "Algorithms Developer",
             company: "SAMPL Lab",
+            logo: "/assets/sampl.png",
             period: "January 2023 - March 2024",
             description: [
                 "Developed and optimized deep learning models for medical image classification, segmentation, and object detection.",
@@ -55,6 +57,7 @@ export const portfolioData = {
         {
             title: "Software Engineer",
             company: "GistMD",
+            logo: "/assets/gistmd.jpg",
             period: "June 2021 - January 2023",
             description: [
                 "Built and deployed web apps with Node.js, React, and Express.",
@@ -68,7 +71,8 @@ export const portfolioData = {
             degree: "MSc in Computer Science",
             institution: "The Hebrew University of Jerusalem",
             period: "March 2022 - November 2024",
-            details: "magna cum laude - 93 GPA",
+
+            relevantCourses: "Deep Convolutional Neural Networks, Convex Optimization, An Assertion of Neural Networks, Human Vision with Computational Approach, Advanced NLP",
             thesis: "Analyzed MRI data to detect age-related brain connectivity changes using machine learning and statistical methods.",
             publication: "https://www.biorxiv.org/content/10.1101/2025.09.18.677158v1"
         },

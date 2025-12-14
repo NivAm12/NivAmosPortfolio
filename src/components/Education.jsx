@@ -18,7 +18,12 @@ const Education = () => {
                         <h3 className="text-xl font-bold text-slate-100 mb-1">{edu.degree}</h3>
                         <h4 className="text-blue-400 mb-2">{edu.institution}</h4>
                         <div className="text-sm text-slate-400 font-mono mb-4">{edu.period}</div>
-                        <p className="text-slate-300 italic mb-2">{edu.details}</p>
+                        {edu.details && <p className="text-slate-300 italic mb-2">{edu.details}</p>}
+                        {edu.relevantCourses && (
+                            <div className="mb-4 text-sm text-slate-300">
+                                <strong className="text-slate-200">Relevant Courses:</strong> {edu.relevantCourses}
+                            </div>
+                        )}
                         {edu.thesis && (
                             <div className="mt-4 pt-4 border-t border-slate-700">
                                 <p className="text-sm text-slate-300 mb-2"><strong className="text-slate-200">Thesis:</strong> {edu.thesis}</p>
