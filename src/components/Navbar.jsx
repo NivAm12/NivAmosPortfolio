@@ -24,10 +24,7 @@ const Navbar = () => {
     return (
         <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-slate-900/90 backdrop-blur-md shadow-lg py-4' : 'bg-transparent py-6'}`}>
             <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
-                <a href="#" className="text-xl font-bold text-slate-100 hover:text-blue-400 transition-colors">
-                    {portfolioData.personalInfo.name.split(' ')[0]}
-                    <span className="text-blue-400">.</span>
-                </a>
+
 
                 {/* Desktop Menu */}
                 <div className="hidden md:flex gap-8">

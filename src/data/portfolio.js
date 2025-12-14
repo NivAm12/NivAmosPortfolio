@@ -3,6 +3,7 @@ import { Github, Linkedin, Mail, Phone } from 'lucide-react';
 export const portfolioData = {
     personalInfo: {
         name: "Niv Amos",
+        profileImage: null,
         title: "AI Engineer | Algorithms Developer",
         email: "nivamos704@gmail.com",
         phone: "0526552704",
@@ -22,7 +23,8 @@ export const portfolioData = {
                 url: "mailto:nivamos704@gmail.com",
                 icon: Mail
             }
-        ]
+        ],
+        description: "Senior AI Engineer with a focus on building autonomous agents and production-grade RAG systems. Expert in designing and deploying scalable cloud-native solutions, primarily on AWS. Specializing in distributed architectures, scalable AI initiatives, and advanced LLM applications."
     },
     skills: [
         "Generative AI", "Machine Learning", "Computer Vision", "Deep Learning",
