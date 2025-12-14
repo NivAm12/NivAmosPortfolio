@@ -9,12 +9,12 @@ export const portfolioData = {
         socials: [
             {
                 name: "LinkedIn",
-                url: "https://www.linkedin.com/in/niv-amos",
+                url: "https://il.linkedin.com/in/niv-amos-a25990142",
                 icon: Linkedin
             },
             {
                 name: "GitHub",
-                url: "https://github.com/nivamos",
+                url: "https://github.com/NivAm12",
                 icon: Github
             },
             {

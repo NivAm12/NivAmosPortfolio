@@ -9,7 +9,7 @@ const Contact = () => {
         <Section id="contact" className="bg-slate-800 text-center pb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-8 text-slate-100">Get In Touch</h2>
             <p className="text-slate-400 mb-12 max-w-2xl mx-auto">
-                I'm currently looking for new opportunities. Whether you have a question or just want to say hi, feel free to drop me a message!
+                Whether you have a question or just want to say hi, feel free to drop me a message!
             </p>
 
             <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-16">
